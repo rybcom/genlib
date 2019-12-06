@@ -1,6 +1,3 @@
-declarative generation of class domain model
-
-
 	START_MODEL_CLASS(Object);
 	ADD_PROPERTY(Jezik, int);
 	ADD_PROPERTY(Bazik, float);
@@ -21,4 +18,4 @@ declarative generation of class domain model
 	ADD_PROPERTY(firstname, std::string);
 	ADD_PROPERTY(address, std::string);
 	ADD_PROPERTY(score,double);
-	END_MODEL_CLASS();# genlib
+	END_MODEL_CLASS();
